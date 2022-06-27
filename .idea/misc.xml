@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/kanto/AndroidStudioProjects/test/app/src/main/res/drawable-v24/back_bottom_nav.xml" value="0.224" />
+        <entry key="..\:/Users/kanto/AndroidStudioProjects/test/app/src/main/res/drawable-v24/back_card_view.xml" value="0.1675" />
+        <entry key="..\:/Users/kanto/AndroidStudioProjects/test/app/src/main/res/drawable-v24/back_category_dutton.xml" value="0.1675" />
+        <entry key="..\:/Users/kanto/AndroidStudioProjects/test/app/src/main/res/drawable-v24/back_edit.xml" value="0.1675" />
+        <entry key="..\:/Users/kanto/AndroidStudioProjects/test/app/src/main/res/drawable-v24/ic_baseline_favorite_border_24.xml" value="0.1675" />
+        <entry key="..\:/Users/kanto/AndroidStudioProjects/test/app/src/main/res/drawable-v24/ic_baseline_keyboard_arrow_down_24.xml" value="0.1675" />
+        <entry key="..\:/Users/kanto/AndroidStudioProjects/test/app/src/main/res/drawable-v24/ic_baseline_phone_iphone_24.xml" value="0.1675" />
+        <entry key="..\:/Users/kanto/AndroidStudioProjects/test/app/src/main/res/drawable-v24/ic_baseline_qr_code_24.xml" value="0.1675" />
+        <entry key="..\:/Users/kanto/AndroidStudioProjects/test/app/src/main/res/drawable-v24/line.xml" value="0.1675" />
+        <entry key="..\:/Users/kanto/AndroidStudioProjects/test/app/src/main/res/drawable/qqq.xml" value="0.1" />
+        <entry key="..\:/Users/kanto/AndroidStudioProjects/test/app/src/main/res/drawable/row.xml" value="0.1735" />
+        <entry key="..\:/Users/kanto/AndroidStudioProjects/test/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/kanto/AndroidStudioProjects/test/app/src/main/res/layout/carousel_item.xml" value="0.11406844106463879" />
+        <entry key="..\:/Users/kanto/AndroidStudioProjects/test/app/src/main/res/layout/fragment_item.xml" value="0.25" />
+        <entry key="..\:/Users/kanto/AndroidStudioProjects/test/app/src/main/res/layout/fragment_item_list.xml" value="0.2359375" />
+        <entry key="..\:/Users/kanto/AndroidStudioProjects/test/app/src/main/res/menu/menu_buttom_nav.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
