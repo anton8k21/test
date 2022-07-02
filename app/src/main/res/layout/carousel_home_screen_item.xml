@@ -15,7 +15,6 @@
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         android:background="@drawable/phone"
-        android:backgroundTint="#101010"
         app:cardCornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,25 +22,25 @@
 
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/phone_image"
-            android:layout_width="244dp"
+            android:id="@+id/constraint_image"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_gravity="end"
-            tools:background="@drawable/phone"
             android:elevation="2dp"
-            app:cardPreventCornerOverlap="false" />
+            app:cardPreventCornerOverlap="false" >
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="160dp"
-            android:layout_height="200dp"
-            android:layout_gravity="start"
-            android:background="#101010"
-            android:elevation="2dp"
-            app:cardPreventCornerOverlap="false">
-
+            <ImageView
+                android:id="@+id/phone_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="0dp"
+                tools:src="@drawable/phone"
+                android:contentDescription="TODO" />
 
             <View
-                android:id="@+id/view"
+                android:id="@+id/isNew"
                 android:layout_width="27dp"
                 android:layout_height="27dp"
                 android:layout_marginStart="22dp"
@@ -51,56 +50,34 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
 
-            <TextView
-                android:id="@+id/textView10"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="32dp"
-                android:layout_marginTop="58dp"
-                android:text="Iphone 12"
-                android:textColor="@color/white"
-                android:textSize="25dp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/textView11"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:text="Súper. Mega. Rápido."
-                android:textColor="@color/white"
-                android:textSize="11dp"
-                app:layout_constraintStart_toStartOf="@+id/textView10"
-                app:layout_constraintTop_toBottomOf="@+id/textView10" />
-
             <Button
                 android:layout_width="105dp"
                 android:layout_height="35dp"
-                android:layout_marginTop="26dp"
                 android:backgroundTint="@color/white"
                 android:text="Buy now!"
                 android:textColor="#101010"
                 android:textSize="11dp"
                 android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="@+id/textView11"
-                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+                android:layout_marginBottom="24dp"
+                android:layout_marginStart="22dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
 
             <TextView
+                android:id="@+id/isNew_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="New"
                 android:textColor="@color/white"
                 android:textSize="10dp"
                 android:textStyle="bold|italic"
-                app:layout_constraintBottom_toBottomOf="@+id/view"
-                app:layout_constraintEnd_toEndOf="@+id/view"
-                app:layout_constraintStart_toStartOf="@+id/view"
-                app:layout_constraintTop_toTopOf="@+id/view" />
-
+                app:layout_constraintBottom_toBottomOf="@+id/isNew"
+                app:layout_constraintEnd_toEndOf="@+id/isNew"
+                app:layout_constraintStart_toStartOf="@+id/isNew"
+                app:layout_constraintTop_toTopOf="@+id/isNew" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
+
 
 
     </androidx.cardview.widget.CardView>

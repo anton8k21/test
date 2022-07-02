@@ -9,7 +9,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
 
-private const val BASE_URL = "https://run.mocky.io/v3/654bd15e-b121-49ba-a588-960956b15175"
+private const val BASE_URL = "https://run.mocky.io/v3/"
 
 private val logging = HttpLoggingInterceptor().apply {
     if (BuildConfig.DEBUG) {
@@ -29,7 +29,7 @@ private val retrofit = Retrofit.Builder()
 
 
 interface CardApi{
-    @GET("")
+    @GET("654bd15e-b121-49ba-a588-960956b15175")
     suspend fun getCard(): Response<InfoCardHome>
 }
 
